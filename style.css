@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* min-height: 100vh; */
+    
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+.headerContent{
+    height: 130px;
+    text-align: center;
+    background-color: rgb(13 110 253);
+    color: #fff;
+    padding: 25px 0;
+
+}
+
+
+.productdetails{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    
+}
+.card{
+    padding: 10px 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card img{
+    width: 170px;
+    height: 190px;
+    text-align: center;
+}
+.extra{
+    display: flex;
+    gap: 140px;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin: 0;
+
+}
+.btn{
+    width: 120px;
+    padding: 5px 0;
+    margin: 0;
+    font-size: 12px;
+    width: 90px;
+    border-radius: 5px;
+}
+
+.foot{
+    background-color: rgb(33 37 41);
+    text-align: center;
+    color: #fff;
+    height: 70px;
+    padding: 10px 0;
+}
+
+
+
+.productpage{
+    height: 90px;
+    text-align: center;
+    background-color: rgb(13 110 253);
+    color: #fff;
+    padding: 25px 0;
+}
+.firstmain{
+    height: 100vh;
+}
+.adding{
+    height: 100%;
+}
+
+.mainproduct{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.imagecard img{
+    width: 290px;
+    height: 400px;
+}
+.secondmain{
+    height: 558px;
+}
+.imagecard{
+    padding:20px 150px;
+}
+.textcard{
+    padding: 20px 40px;
+}
+.productbtn{
+    padding: 10px;
+}
+
+#loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* MEDIA QUERY */
+
+
+@media screen and (max-width:768px){
+    .productdetails{
+        grid-template-columns: auto;
+    }
+    .mainproduct{
+        grid-template-columns: auto;
+    }
+    .secondmain{
+        height: 100%;
+    }
+    .imagecard{
+        padding:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .textcard{
+        padding: 0;
+    }
+    .secondmain{
+        height: 800px;
+        flex: 1;
+    }
+
+}
